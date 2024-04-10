@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class compound{
+    
+    public static void main(String[]args){
+        
+        Scanner comp= new Scanner(System.in);
+        
+        
+        System.out.println("enter the value of P: ");
+        int P=comp.nextInt();
+        System.out.println("enter the value of i: ");
+        int i=comp.nextInt();
+        System.out.println("enter the value of n: ");
+        int n=comp.nextInt();
+    
+        
+      double  A=P * Math.pow((1+i),n);
+        System.out.println(A);
+    }
+}
